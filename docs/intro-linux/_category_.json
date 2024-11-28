@@ -1,0 +1,8 @@
+{
+    "label": "Intro To Linux",
+    "position": 2,
+    "link": {
+        "type": "generated-index",
+        "description": "A quick introduction to Linux learning resources."
+    }
+}
