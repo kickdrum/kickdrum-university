@@ -16,13 +16,13 @@ const config: Config = {
   url: "https://kickdrum.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/pre-kdu-2025/",
+  baseUrl: "/kickdrum-university/",
   trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "kickdrum", // Usually your GitHub org/user name.
-  projectName: "pre-kdu-2025", // Usually your repo name.
+  projectName: "kickdrum-university", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
