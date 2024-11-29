@@ -49,7 +49,69 @@ const config: Config = {
     ],
   ],
 
+  // Setup for Local Search Index stored in user's browser using PageFind
+  // Might revisit this later. Algolia is working well for now.
+
+  // plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
+
+  themes: [
+    // [
+    //   require.resolve("@getcanary/docusaurus-theme-search-pagefind"),
+    //   {
+    //     // https://getcanary.dev/docs/common/customization/styling#css-variables
+    //     styles: {
+    //       "--canary-color-primary-c": 0.1,
+    //       "--canary-color-primary-h": 270,
+    //     },
+    //     // https://pagefind.app/docs/ranking
+    //     pagefind: {
+    //       ranking: {
+    //         pageLength: 0.9,
+    //         termFrequency: 1.0,
+    //         termSimilarity: 1.0,
+    //         termSaturation: 1.5,
+    //       }
+    //     },
+    //     indexOnly: false,
+    //     includeRoutes: ["**/*"],
+    //     excludeRoutes: ['/api/**'],
+    //     // https://getcanary.dev/docs/local/demo
+    //     // https://getcanary.dev/docs/common/guides/filtering
+    //     // e.g. [{"name":"All","pattern":"**/*"}]
+    //     tabs: [],
+    //   },
+    // ]
+  ],
+
   themeConfig: {
+    algolia: {
+      // The application ID provided by Algolia
+      appId: '0GN63ACSV7',
+
+      // Public API key: it is safe to commit it
+      apiKey: '0287f32ceae77a8ddfd5f8cbb7be9560',
+
+      indexName: 'kickdrumio',
+
+      // Optional: see doc section below
+      contextualSearch: true,
+
+      // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+      externalUrlRegex: 'external\\.com|domain\\.com',
+
+      // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+      replaceSearchResultPathname: {
+        from: '/docs/', // or as RegExp: /\/docs\//
+        to: '/docs/',
+      },
+
+      // Optional: path for search page that enabled by default (`false` to disable it)
+      searchPagePath: 'search',
+
+      // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+      insights: false,
+
+    },
     // Replace with your project's social card
     image: "img/kdot.png",
     navbar: {

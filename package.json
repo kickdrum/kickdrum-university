@@ -18,6 +18,8 @@
     "@docusaurus/core": "3.6.1",
     "@docusaurus/faster": "^3.6.1",
     "@docusaurus/preset-classic": "3.6.1",
+    "@getcanary/docusaurus-theme-search-pagefind": "^1.0.2",
+    "@getcanary/web": "^1.0.12",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.3.0",
