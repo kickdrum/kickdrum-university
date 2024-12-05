@@ -13,9 +13,8 @@ Set your username:
 Set your email address:
 `git config --global user.email "MY_NAME@example.com"`
 
-#### TODO - Add command for init script that initialises hooks and lays out folder structure
-
-- Create a new repository called **`pre-kdu-training`** from the command line
+- For Windows folks using Git Bash, you need to `cd` into the Desktop folder and then follow these steps.
+- Create a new repository called **`pre-kdu-training`** from the command line. (`mkdir pre-kdu-training` and run `git init` inside of it).
 - Create a file called `startup.sh` and paste the below contents in it.
 
 ```bash

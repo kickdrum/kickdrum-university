@@ -36,7 +36,8 @@ Eclipse is another widely used IDE for Java development. Follow these steps to s
 
 The Java Development Kit (JDK) is essential for Java development. 
 
-- **Download JDK**: Get the latest JDK (version 21 or above) from the [Oracle JDK Downloads Page ↗](https://www.oracle.com/java/technologies/downloads/).
+- **Download JDK**: Get JDK version 21 from the [Oracle JDK Downloads Page ↗](https://www.oracle.com/java/technologies/downloads/).
+**Make sure to install JDK 21 specifically as your assignments are configured for that**
 - **Verify Installation**: Once installed, verify by running the following command:
   ```bash
   java --version
