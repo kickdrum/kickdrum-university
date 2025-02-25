@@ -46,11 +46,11 @@ The Java Development Kit (JDK) is essential for Java development.
 ### 4. Tutorials
 
 Once your environment is set up, explore the following resources to master Java:
-- [Java Language Basics ↗](https://www.baeldung.com/java-tutorials)
+- [Java Language Basics ↗](https://www.baeldung.com/java-tutorial)
 - [Java OOPs (Object-Oriented Programming) ↗](https://www.baeldung.com/java-oop)
-- [Java Strings ↗](https://www.baeldung.com/java-strings)
+- [Java Strings ↗](https://www.baeldung.com/java-string)
 - [Java Exceptions ↗](https://www.baeldung.com/java-exceptions)
-- [Java Arrays ↗](https://www.baeldung.com/java-arrays)
+- [Java Arrays ↗](https://www.baeldung.com/java-arrays-guide)
 - [Java Collections ↗](https://www.baeldung.com/java-collections)
 - [Java Streams ↗](https://www.baeldung.com/java-8-streams)
 - [Java IO ↗](https://www.baeldung.com/java-io)
